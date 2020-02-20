@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="124923" started-at="2020-02-20T13:01:28Z" finished-at="2020-02-20T13:03:33Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="124923" started-at="2020-02-20T13:01:28Z" finished-at="2020-02-20T13:03:33Z">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@42d3bd8b]" name="setUp" is-config="true" duration-ms="43217" started-at="2020-02-20T18:31:28Z" finished-at="2020-02-20T18:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@42d3bd8b]" name="verifyHomePageTitleTest" duration-ms="11" started-at="2020-02-20T18:32:11Z" finished-at="2020-02-20T18:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@42d3bd8b]" name="tearDown" is-config="true" duration-ms="1038" started-at="2020-02-20T18:32:11Z" finished-at="2020-02-20T18:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@42d3bd8b]" name="setUp" is-config="true" duration-ms="16641" started-at="2020-02-20T18:32:51Z" finished-at="2020-02-20T18:33:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCorrectUserLoggedIn()[pri:2, instance:com.crm.qa.testcases.HomePageTest@42d3bd8b]" name="verifyCorrectUserLoggedIn" duration-ms="1671" started-at="2020-02-20T18:33:07Z" finished-at="2020-02-20T18:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectUserLoggedIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@42d3bd8b]" name="tearDown" is-config="true" duration-ms="1273" started-at="2020-02-20T18:33:09Z" finished-at="2020-02-20T18:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@42d3bd8b]" name="setUp" is-config="true" duration-ms="8815" started-at="2020-02-20T18:33:21Z" finished-at="2020-02-20T18:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsPageisClicked()[pri:3, instance:com.crm.qa.testcases.HomePageTest@42d3bd8b]" name="verifyContactsPageisClicked" duration-ms="2118" started-at="2020-02-20T18:33:30Z" finished-at="2020-02-20T18:33:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsPageisClicked -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@42d3bd8b]" name="tearDown" is-config="true" duration-ms="1148" started-at="2020-02-20T18:33:32Z" finished-at="2020-02-20T18:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@26ba2a48]" name="setUp" is-config="true" duration-ms="37171" started-at="2020-02-20T18:32:12Z" finished-at="2020-02-20T18:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ValidateLoginPageTitle()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@26ba2a48]" name="ValidateLoginPageTitle" duration-ms="14" started-at="2020-02-20T18:32:50Z" finished-at="2020-02-20T18:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@26ba2a48]" name="tearDown" is-config="true" duration-ms="936" started-at="2020-02-20T18:32:50Z" finished-at="2020-02-20T18:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@26ba2a48]" name="setUp" is-config="true" duration-ms="9599" started-at="2020-02-20T18:33:10Z" finished-at="2020-02-20T18:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginFunctionalityTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@26ba2a48]" name="LoginFunctionalityTest" duration-ms="424" started-at="2020-02-20T18:33:20Z" finished-at="2020-02-20T18:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFunctionalityTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@26ba2a48]" name="tearDown" is-config="true" duration-ms="813" started-at="2020-02-20T18:33:20Z" finished-at="2020-02-20T18:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
