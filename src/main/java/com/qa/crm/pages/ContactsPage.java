@@ -23,21 +23,28 @@ public class ContactsPage extends TestBase {
 	WebElement Last_Name;
 	@FindBy(xpath="//input[@placeholder='Email address']")
 	WebElement Email_ID;
-	@FindBy(xpath="//i[@class='save icon']")
+	@FindBy(xpath="//button[text()='Save']")
 	WebElement SaveIcon;
-	
-	
-	
+	@FindBy(xpath="//div//div[@class='ui secondary pointing menu header-title page-header']//div[@class='ui header item mb5 light-black']")
+	WebElement Name;
 	public boolean ContactsPageavailable(){
 		return ConsPage.isDisplayed();
 	}	
-	public void createNewContact(String FirstName,String LastName,String Email)
+	
+	
+	public String createNewContact(String FirstName,String LastName,String Email) throws InterruptedException
 	{
 		NewLink.click();
 		First_Name.sendKeys(FirstName);
 		Last_Name.sendKeys(LastName);
 		Email_ID.sendKeys(Email);
 		SaveIcon.click();
+		Thread.sleep(5000);
+		String UserName = Name.getText();
+		System.out.println("Username"+ UserName);
+		return UserName;
+		
+		
 	}
 
 

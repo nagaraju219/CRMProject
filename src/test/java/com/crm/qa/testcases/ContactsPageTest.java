@@ -38,10 +38,11 @@ public class ContactsPageTest extends TestBase {
 		return data;
 	}
 	@Test(priority=2,dataProvider="getData")
-	public void verifyContactareadded(String FirstName,String LastName,String Email)
+	public void verifyContactareadded(String FirstName,String LastName,String Email) throws InterruptedException
 	{
-		contactspage.createNewContact(FirstName, LastName, Email);
-	}
+		String user_name = contactspage.createNewContact(FirstName, LastName, Email);
+		Assert.assertEquals(FirstName+" "+LastName, user_name);
+		}
 	@AfterMethod
 	public void tearDown()
 	{
