@@ -7,6 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.qa.crm.base.TestBase;
 
 public class ContactsPage extends TestBase {
+	String UserName;
 	
 	public ContactsPage()
 	{
@@ -40,7 +41,7 @@ public class ContactsPage extends TestBase {
 		Email_ID.sendKeys(Email);
 		SaveIcon.click();
 		Thread.sleep(5000);
-		String UserName = Name.getText();
+		UserName = Name.getText();
 		System.out.println("Username"+ UserName);
 		return UserName;
 		
