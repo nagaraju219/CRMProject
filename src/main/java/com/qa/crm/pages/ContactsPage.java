@@ -40,7 +40,7 @@ public class ContactsPage extends TestBase {
 		Last_Name.sendKeys(LastName);
 		Email_ID.sendKeys(Email);
 		SaveIcon.click();
-		Thread.sleep(5000);
+		Thread.sleep(5001);
 		UserName = Name.getText();
 		return UserName;
 		
