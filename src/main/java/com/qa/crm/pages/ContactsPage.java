@@ -42,7 +42,6 @@ public class ContactsPage extends TestBase {
 		SaveIcon.click();
 		Thread.sleep(5000);
 		UserName = Name.getText();
-		System.out.println("Username"+ UserName);
 		return UserName;
 		
 		
