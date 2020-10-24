@@ -12,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import com.qa.crm.util.TestUtil;
 
 public class TestBase {
+	
+	//This is the TestBaseClass
 	public static WebDriver driver;
 	public static Properties prop;
 	static FileInputStream fis = null;
