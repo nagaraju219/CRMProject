@@ -4,7 +4,7 @@
 <listeners>
 <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
 </listeners>
-  <test thread-count="5" name="FREE CRM TEST">
+  <test name="FREE CRM TEST" parallel="tests" >
     <classes>
       <class name="com.crm.qa.testcases.LoginPageTest"/>
       <class name="com.crm.qa.testcases.HomePageTest"/>

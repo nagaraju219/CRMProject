@@ -1,4 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 230.123 sec
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 188.132 s <<< FAILURE! - in TestSuite
+com.crm.qa.testcases.ContactsPageTest.verifyContactareadded[Nagaraju, Madupu, nagarajumadupu@gmail.com](1)  Time elapsed: 12.963 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Nagaraju Madupu] but found [Nagaraju]
+	at com.crm.qa.testcases.ContactsPageTest.verifyContactareadded(ContactsPageTest.java:55)
+
+com.crm.qa.testcases.ContactsPageTest.verifyContactareadded[Laddu, Nani, laddunani9@gmail.com](2)  Time elapsed: 14.113 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Nagaraju Madupu] but found [Nagaraju],
+	expected [Laddu Nani] but found [Laddu]
+	at com.crm.qa.testcases.ContactsPageTest.verifyContactareadded(ContactsPageTest.java:55)
+
+com.crm.qa.testcases.ContactsPageTest.verifyContactareadded[Haripriya, Eadi, hari@gmail.com](3)  Time elapsed: 13.707 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [Nagaraju Madupu] but found [Nagaraju],
+	expected [Laddu Nani] but found [Laddu],
+	expected [Haripriya Eadi] but found [Haripriya]
+	at com.crm.qa.testcases.ContactsPageTest.verifyContactareadded(ContactsPageTest.java:55)
+

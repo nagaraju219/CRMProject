@@ -25,18 +25,18 @@ public class HomePageTest extends TestBase{
 		loginpage = new LoginPage();
 		homepage = loginpage.login(prop.getProperty("username"),prop.getProperty("password"));
 	}
-	@Test(priority=1)
+	@Test(priority=1,description="Validation of the HomePage Title")
 	public void verifyHomePageTitleTest()
 	{
 		String Title = homepage.HomePageTitle();
 		Assert.assertEquals(Title, "Cogmento CRM","Home page title not match");
 	}
-	@Test(priority=2)
+	@Test(priority=2,description="Validation of the CorrectUserLogin")
 	public void verifyCorrectUserLoggedIn()
 	{
 		Assert.assertTrue(homepage.CorrectUserLoggedIn());
 	}
-	@Test(priority=3)
+	@Test(priority=3,description="Validation of Contacts link is clicked or not")
 	public void verifyContactsPageisClicked()
 	{
 		contactspage = homepage.ClickonContactsPage();

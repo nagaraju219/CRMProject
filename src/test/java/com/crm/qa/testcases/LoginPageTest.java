@@ -24,13 +24,13 @@ public class LoginPageTest extends TestBase {
 		initialization();
 		loginpage = new LoginPage();
 	}
-	@Test(priority=1)
+	@Test(priority=1,description="Validation of the LoginPage Title")
 	public void ValidateLoginPageTitle()
 	{
 		String Title = loginpage.LoginPageTitle();
 		Assert.assertEquals(Title, "Cogmento CRM");
 	}
-	@Test(priority=2)
+	@Test(priority=2,description="Validation the Functionality of Login Page")
 	public void LoginFunctionalityTest()
 	{
 		homepage = loginpage.login(prop.getProperty("username"),prop.getProperty("password"));
